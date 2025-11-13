@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        .card{
+            border: 2px solid darkolivegreen;
+            border-radius: 5px;
+            width: 300px;
+            margin: 8px;
+        }
+        img{
+            width: 100%;
+        }
+        h1,h3{
+            text-align: center;
+            color: darkblue;
+            font-style: oblique;
+        }
+        .card:hover{
+            transform: scale(1.1);
+            border: 2px solid orangered;
+        }
+        .container{
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Famous Places in Myanmar</h1>
+    <div class="container">
+    <div class="card">
+        <img src="images/ngapili.jpg" alt="Ngapili">
+        <div>
+            <h3>Ngapili</h3>
+        </div>
+    </div>
+    <div class="card">
+        <img src="images/bagan.jpg" alt="Bagan">
+        <div>
+            <h3>Bagan</h3>
+        </div>
+    </div>
+    <div class="card">
+        <img src="images/inle.jpg" alt="Inle Lake">
+        <div>
+            <h3>Inle Lake</h3>
+        </div>
+    </div>
+    <div class="card">
+        <img src="images/mandalay.jpg" alt="Mandalay">
+        <div>
+            <h3>Mandalay</h3>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
